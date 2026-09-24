@@ -7,12 +7,12 @@ mcpServers:
     type: stdio
     command: node
     args:
-      - /Users/kentdang/Documents/dev/nodejs/local-mcp/dist/index.js
+      - dist/index.js
       - stdio
-    cwd: /Users/kentdang/Documents/dev/nodejs/local-mcp
+    cwd: .
     env:
-      MCP_DATA_DIR: /Users/kentdang/Documents/dev/nodejs/local-mcp/data
-      MCP_WORKSPACE_DIR: /Users/kentdang/Documents/dev/nodejs/local-mcp/workspace
+      MCP_DATA_DIR: data
+      MCP_WORKSPACE_DIR: workspace
       MCP_BROWSER_MODE: connect
       MCP_BROWSER_CDP_URL: http://127.0.0.1:9222
       MCP_BROWSER_HEADLESS: "false"
