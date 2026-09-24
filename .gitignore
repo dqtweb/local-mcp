@@ -1,0 +1,54 @@
+# =========================================
+# OS generated files
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Dependency Directories (Node.js)
+# =========================================
+# Installed node modules (usually large and platform-specific)
+node_modules/
+# Lock files (if you prefer to manage dependencies via package.json only)
+# package-lock.json  <- Keep this if you use npm and want specific lock management
+# yarn.lock          <- Uncomment if you use Yarn
+# pnpm-lock.yaml     <- Uncomment if you use pnpm
+
+# =========================================
+# Build and Distribution Outputs
+# =========================================
+# Directory for compiled/built artifacts
+dist/
+build/
+out/
+
+# =========================================
+# IDE and Editor Specific Files
+# =========================================
+# Visual Studio Code
+.vscode/
+# JetBrains (IntelliJ, WebStorm, etc.)
+.idea/
+
+# =========================================
+# Logs, Caches, and Temporary Files
+# =========================================
+*.log
+*.tmp
+data/ # If the 'data' folder contains locally generated, non-version-controlled data
+.env
+.env.local
+data/lancedb/
+data/models/
+
+# =========================================
+# TypeScript/Build Configuration (if needed)
+# =========================================
+# If you use specific TypeScript output directories not covered above
+tsconfig.tsbuildinfo
+
+# =========================================
+# Project Specific Exclusions (Review these!)
+# =========================================
+# If 'workspace/' contains sensitive or local setup files, add them here.
+# workspace/local-config/
