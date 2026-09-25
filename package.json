@@ -12,6 +12,8 @@
     "dev": "tsx watch src/index.ts http",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
+    "list-tools": "tsx scripts/list-mcp-tools.ts",
+    "verify-avatar": "tsx scripts/verify-avatar-tool.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "lint": "biome check ."
